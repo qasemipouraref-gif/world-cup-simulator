@@ -24,7 +24,7 @@ class WorldCupSimulator():
         """reading the CSV file and loading teams"""
         self.teams = []
         try:
-            with open(filename, mode = "r" ,newline = "", encoding= "utf-8" ) as file: #newline & encoding
+            with open(filename, mode = "r" ,newline = "", encoding= "utf-8" ) as file: 
                 reader = csv.DictReader(file)
             
                 for row in reader: # putting teams specification into the variables
