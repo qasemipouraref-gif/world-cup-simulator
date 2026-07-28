@@ -135,7 +135,7 @@ class WorldCupSimulator():
                 self.champion = winners[0]
                 if show_output:
                     print(f"\nChampion: {self.champion.name}")
-                    break
+                break
             
             next_matches = []
             for i in range(0 , len(winners), 2): #advancing teams for next stage
